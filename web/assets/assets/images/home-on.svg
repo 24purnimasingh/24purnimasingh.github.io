@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.8" height="22.102" viewBox="0 0 21.8 22.102">
+  <g id="home_on" transform="translate(-2.099 -1.24)">
+    <g id="Frame_28" transform="translate(2.099 1.24)">
+      <rect id="Frame_28_Background_" width="21.8" height="21.519" fill="none"/>
+    </g>
+    <path id="home_1_fill" d="M11.334.442l7.778,5.8A2.206,2.206,0,0,1,20,8.011v10.5a2.216,2.216,0,0,1-2.222,2.21H2.222A2.216,2.216,0,0,1,0,18.508V8.011A2.206,2.206,0,0,1,.889,6.243L8.667.442A2.232,2.232,0,0,1,11.334.442Z" transform="translate(3.1 2.625)" fill="#6e45c0"/>
+    <rect id="Rectangle_17782" width="8" height="1.3" rx="0.65" transform="translate(9.1 19.599)" fill="#fff"/>
+  </g>
+</svg>

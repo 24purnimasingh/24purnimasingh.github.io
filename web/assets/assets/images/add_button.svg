@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="91" viewBox="0 0 91 91">
+  <defs>
+    <filter id="Ellipse_18" x="0" y="0" width="91" height="91" filterUnits="userSpaceOnUse">
+      <feOffset />
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#747474" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Add_button" transform="translate(15.5 15.5)">
+    <g transform="matrix(1, 0, 0, 1, -15.5, -15.5)" filter="url(#Ellipse_18)">
+      <circle id="Ellipse_18-2" cx="30" cy="30" r="30" transform="translate(15.5 15.5)" fill="#f0ecf8" stroke="#fcf7ff" stroke-width="1"/>
+    </g>
+    <path id="Path_12309" d="M153.911,72.8a1.2,1.2,0,0,0-1.2,1.2v8.706H144a1.2,1.2,0,1,0,0,2.4h8.706v8.706a1.2,1.2,0,1,0,2.4,0V85.109h8.706a1.2,1.2,0,1,0,0-2.4h-8.706V74A1.2,1.2,0,0,0,153.911,72.8Z" transform="translate(-124.306 -54.303)" fill="#6e45c0" stroke="#6e45c0" stroke-width="1"/>
+  </g>
+</svg>

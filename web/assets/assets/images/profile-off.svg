@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="profile_off" transform="translate(-0.5)">
+    <path id="Vector" d="M24,0V24H0V0Z" transform="translate(0.5)" fill="rgba(255,255,255,0.01)"/>
+    <path id="user_2_fill" d="M17.6,22H2.2A2.2,2.2,0,0,1,0,19.8V18.7a5.507,5.507,0,0,1,5.5-5.5h8.8a5.507,5.507,0,0,1,5.5,5.5v1.1A2.2,2.2,0,0,1,17.6,22ZM9.9,11a5.5,5.5,0,1,1,5.5-5.5A5.506,5.506,0,0,1,9.9,11Z" transform="translate(2.5 2)" fill="#d4d4d4"/>
+  </g>
+</svg>
