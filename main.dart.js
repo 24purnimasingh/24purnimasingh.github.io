@@ -26903,7 +26903,7 @@ aqv:function aqv(a){this.a=a},
 aFL(){var s=new A.aml(),r=new A.PJ(A.a([],t.lC),new A.DJ(),new A.DJ(),new A.DJ()),q=new A.a7h($,r,$,new A.a77(),!1),p=A.aSz()
 q.Tc$=p
 q.Td$=new A.a5b(A.b4(t.Gf))
-p.qb$="https://sr-wave-api.shiprocket.in"
+p.qb$="https://sr-wave-qa-1.kartrocket.com"
 p.d=p.md$=15e3
 p.f=B.eq
 r.B(r,new A.DK())
