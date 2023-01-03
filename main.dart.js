@@ -88095,18 +88095,18 @@ return A.ho(m,A.ak(m,A.ak(m,A.a5Q(A.ak(m,A.bw(A.a([r,q,A.bW(A.bh(A.a([p,o,A.bW(A
 aha(a){var s
 if(a.length>0){s=A.NT("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").OD(a,!1,!1)
 return A.NT("dd MMM yyyy").qe(0,s)}else return"10 Nov 2020"},
-HC(){var s,r,q=null,p="assets/images/orderPlaceholderImage.png",o=this.c,n=o==null
-if(n)s=q
-else s=o.e==="gmail"&&o.f==="amazon"
-if(s===!0){s=n?q:o.gHP()
+HC(){var s,r,q=null,p="assets/images/amazon_logo.png",o="assets/images/orderPlaceholderImage.png",n=this.c,m=n==null
+if(m)s=q
+else s=n.e==="gmail"&&n.f==="amazon"
+if(s===!0){s=m?q:n.gHP()
 s=s!==!0}else s=!1
-if(s){s=A.Mi(new A.bp(12,12))
+if(s){s=A.Mi(new A.bp(10,10))
 r=A.qJ(A.as(51,158,158,158),1)
-o=n?q:o.guo()
-return A.ak(q,new A.eF(B.T,q,q,A.aam(q,40,o==null?p:o,p,40),q),B.f,q,q,new A.ce(q,q,r,s,q,q,B.a4),q,90,q,q,q,q,90)}else{s=A.Mi(new A.bp(12,12))
+n=m?q:n.guo()
+return A.ak(q,new A.eF(B.T,q,q,A.aam(q,32,n==null?p:n,p,32),q),B.f,q,q,new A.ce(q,q,r,s,q,q,B.a4),q,50,q,q,q,q,50)}else{s=A.Mi(new A.bp(12,12))
 r=A.dn(12)
-o=n?q:o.guo()
-return A.ak(q,A.Nj(r,A.aam(B.cW,q,o==null?p:o,p,q)),B.f,q,q,new A.ce(q,q,q,s,q,q,B.a4),q,90,q,q,q,q,90)}}}
+n=m?q:n.guo()
+return A.ak(q,A.Nj(r,A.aam(B.cW,q,n==null?o:n,o,q)),B.f,q,q,new A.ce(q,q,q,s,q,q,B.a4),q,90,q,q,q,q,90)}}}
 A.agU.prototype={
 $0(){var s=this.a,r=s.c
 r=A.b1("order detail naigation: "+A.d(r==null?[]:r))
