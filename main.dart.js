@@ -27395,13 +27395,13 @@ return A.A(A.qa(),$async$Na)
 case 2:q=b
 p=A.ady()
 A.aH5(p)
-o=q.a
+s=3
+return A.A(A.xq(B.ph,t.z),$async$Na)
+case 3:o=q.a
 n=J.aq(o)
 m=A.fh(n.h(o,"logged_in"))==null?!1:A.fh(n.h(o,"logged_in"))
 A.asp(A.a([B.Hs],t.UW)).aY(0,new A.aGI(p,m,q),t.H)
-s=3
-return A.A(A.xq(B.ph,t.z),$async$Na)
-case 3:return A.v(null,r)}})
+return A.v(null,r)}})
 return A.w($async$Na,r)},
 aH5(a){var s=0,r=A.x(t.H),q
 var $async$aH5=A.t(function(b,c){if(b===1)return A.u(c,r)
