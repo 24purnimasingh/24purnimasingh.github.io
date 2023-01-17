@@ -99338,7 +99338,7 @@ b.toString
 return A.at(h,A.bz(A.a([r,s,A.at(h,A.bO(A.a([new A.xi(p,o,n,h),new A.xi(m,l,k,h),new A.xi(j,b,B.e.j(i.a.e),h)],q),B.o,B.p,B.l),B.i,h,h,h,h,h,h,new A.ad(30,10,30,10),h,h,450)],q),B.o,B.p,B.l),B.i,h,h,new A.cw(B.k,h,d,new A.cS(new A.bD(10,10),new A.bD(10,10),new A.bD(10,10),new A.bD(10,10)),h,new A.u2(B.i8,B.dV,B.aI,c,h,h),B.a5),h,h,h,h,h,h,450)}}
 A.Gd.prototype={
 Z(){var s=t.N
-return new A.a1M([A.af(["image","assets/images/home-on.svg","name","Home"],s,s),A.af(["image","assets/icons/accounts/orders-off@3x.png","name","Orders"],s,s),A.af(["image","assets/icons/accounts/profile_off.png","name","Profile"],s,s)],B.j)}}
+return new A.a1M([A.af(["image","assets/images/home-on.svg","name","Home"],s,s),A.af(["image","assets/icons/accounts/orders-off@3x.png","name","Orders"],s,s),A.af(["image","assets/images/profile_off.png","name","Profile"],s,s)],B.j)}}
 A.a1M.prototype={
 ah(){var s=this,r=s.c
 r.toString
