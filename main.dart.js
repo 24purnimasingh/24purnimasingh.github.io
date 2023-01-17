@@ -96240,7 +96240,7 @@ $1(a){return!1},
 $S:147}
 A.yR.prototype={
 gauR(){var s,r=this,q=null,p=r.b
-if(p===$){s=A.b1K(!0,new A.alm(),new A.aln(r),r.a,A.a([A.nx("login",new A.alo(),"/login",q),A.nx("splash",new A.alp(),"/splash",q),A.nx("onboarding",new A.alq(),"/onboarding",q),A.nx("login",new A.alr(),"/login",q),A.nx("otp",new A.als(),"/otp",q),A.nx("home",new A.alt(),"/home/:tab(dashboard|orders|profile)",q),A.nx(q,q,"/dashboard",new A.alu()),A.nx(q,q,"/orders",new A.alv()),A.nx(q,q,"/profile",new A.alw())],t.yo))
+if(p===$){s=A.b1K(!0,new A.alm(),new A.aln(r),r.a,A.a([A.nx("login",new A.alo(),"/",q),A.nx("splash",new A.alp(),"/splash",q),A.nx("onboarding",new A.alq(),"/onboarding",q),A.nx("login",new A.alr(),"/login",q),A.nx("otp",new A.als(),"/otp",q),A.nx("home",new A.alt(),"/home/:tab(dashboard|orders|profile)",q),A.nx(q,q,"/dashboard",new A.alu()),A.nx(q,q,"/orders",new A.alv()),A.nx(q,q,"/profile",new A.alw())],t.yo))
 r.b!==$&&A.bn()
 r.b=s
 p=s}return p}}
