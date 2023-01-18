@@ -99406,8 +99406,8 @@ b=b[2].h(0,e)
 b.toString
 return A.aA(h,A.bK(A.a([r,s,A.aA(h,A.bU(A.a([new A.xi(p,o,n,h),new A.xi(m,l,k,h),new A.xi(j,b,B.e.j(i.a.e),h)],q),B.p,B.o,B.l),B.i,h,h,h,h,h,h,new A.ag(30,10,30,10),h,h,450)],q),B.p,B.o,B.l),B.i,h,h,new A.cD(B.k,h,d,new A.cS(new A.bD(10,10),new A.bD(10,10),new A.bD(10,10),new A.bD(10,10)),h,new A.u3(B.i7,B.dT,B.aJ,c,h,h),B.a7),h,h,h,h,h,h,450)}}
 A.Gd.prototype={
-Z(){var s="assets/images/home-on.svg",r="assets/images/Orders-off.svg",q=t.N
-return new A.a1P([A.ae(["image",s,"selected",s,"name","Home"],q,q),A.ae(["image",r,"selected",r,"name","Orders"],q,q),A.ae(["image","assets/icons/accounts/editIcon.png","selected","assets/icons/accounts/faqs.png","name","Profile"],q,q)],B.j)}}
+Z(){var s=t.N
+return new A.a1P([A.ae(["image","assets/images/home_off@3x.png","selected","assets/images/home_on@3x.png","name","Home"],s,s),A.ae(["image","assets/images/order_off@3x.png","selected","assets/images/order_on@3x.png","name","Orders"],s,s),A.ae(["image","assets/images/profile_off@3x.png","selected","assets/images/profile_on@3x.png","name","Profile"],s,s)],B.j)}}
 A.a1P.prototype={
 aj(){var s=this,r=s.c
 r.toString
