@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "My Shiprocket is a one-stop app for your post-shopping and tracking needs. Track your orders, return or exchange them, and keep an eye out for delivery.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
