@@ -6,3 +6,11 @@
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
+html {
+height: 100%;
+}
+
+body {
+background-image: linear-gradient(to bottom right, #FFFFFF, #d6cadd, #FFFFFF);
+}
