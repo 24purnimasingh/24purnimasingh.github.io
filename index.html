@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '467974027';
+    var serviceWorkerVersion = '1499537562';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -44,20 +44,17 @@
   <link rel="stylesheet" type="text/css" href="splash/style.css">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   <script src="splash/splash.js"></script>
-  <script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
 <!--  <img src="splash/img/group_363.png">-->
 </head>
-<canvas id="riveCanvas" width="100" height="100"></canvas>
-
+<div class="center">
+  <canvas id="riveCanvas" width="400" height="400"></canvas>
+</div>
+<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
 <script>
       const r = new rive.Rive({
-        src: "https://cdn.rive.app/animations/vehicles.riv",
+        src: "assets/assets/RiveAnimation/splash.riv",
         canvas: document.getElementById("riveCanvas"),
         autoplay: true,
-        stateMachines: "bumpy",
-        onLoad: () => {
-          r.resizeDrawingSurfaceToCanvas();
-        },
       });
     </script>
 <body>
