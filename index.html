@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2185943349';
+    var serviceWorkerVersion = '657312779';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -46,12 +46,26 @@
   <script src="splash/splash.js"></script>
 </head>
 <body>
-<div class="zoom-in-out-box center"><picture id="splash-branding">
-    <source srcset="splash/img/branding-1x.png 1x, splash/img/branding-2x.png 2x, splash/img/branding-3x.png 3x, splash/img/branding-4x.png 4x" media="(prefers-color-scheme: light)">
-    <source srcset="splash/img/branding-dark-1x.png 1x, splash/img/branding-dark-2x.png 2x, splash/img/branding-dark-3x.png 3x, splash/img/branding-dark-4x.png 4x" media="(prefers-color-scheme: dark)">
-    <img class="center" aria-hidden="true" src="splash/img/branding-1x.png" alt="">
-  </picture>
+
+<div class="center">
+  <canvas id="riveCanvas" width="629" height="400"></canvas>
 </div>
+<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
+<script>
+      const r = new rive.Rive({
+        src: "assets/RiveAnimation/splash.riv",
+        canvas: document.getElementById("riveCanvas"),
+        autoplay: true,
+      });
+    </script>
+<body>
+
+<!--<div class="zoom-in-out-box center"><picture id="splash-branding">-->
+<!--    <source srcset="splash/img/branding-1x.png 1x, splash/img/branding-2x.png 2x, splash/img/branding-3x.png 3x, splash/img/branding-4x.png 4x" media="(prefers-color-scheme: light)">-->
+<!--    <source srcset="splash/img/branding-dark-1x.png 1x, splash/img/branding-dark-2x.png 2x, splash/img/branding-dark-3x.png 3x, splash/img/branding-dark-4x.png 4x" media="(prefers-color-scheme: dark)">-->
+<!--    <img class="center" aria-hidden="true" src="splash/img/branding-1x.png" alt="">-->
+<!--  </picture>-->
+<!--</div>-->
 <!--<img src="https://media.giphy.com/media/3o6UBpHgaXFDNAuttm/giphy.gif">-->
 <!--<img src="/images/logo.png" />-->
 <!--—- Other Body Properties —--->
