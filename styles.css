@@ -13,7 +13,7 @@ height: 100%;
 
 body {
 background-image: linear-gradient(to bottom right, #121212, #121212, #121212);
-transition-delay: 1.2s;
+transition-delay: 2s;
 }
 
 .loader {
