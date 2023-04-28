@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3863200109';
+    var serviceWorkerVersion = '1490918403';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -45,30 +45,29 @@
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   <script src="splash/splash.js"></script>
 </head>
+
 <body>
 
 <div class="center">
-  <canvas id="riveCanvas" width="629" height="400"></canvas>
+  <canvas id="riveCanvas" width="800" height="300"></canvas>
+  <canvas id="riveCanvasLoader" width="800" height="50"></canvas>
 </div>
 <script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
 <script>
+    const r = new rive.Rive({
+       src: "assets/assets/RiveAnimation/splash.riv",
+       canvas: document.getElementById("riveCanvas"),
+       autoplay: true,
+    });
+    setTimeout(function() {
       const r = new rive.Rive({
-        src: "assets/assets/RiveAnimation/splash.riv",
-        canvas: document.getElementById("riveCanvas"),
+        src: "assets/assets/RiveAnimation/loader.riv",
+        canvas: document.getElementById("riveCanvasLoader"),
         autoplay: true,
       });
-    </script>
+    },1200);
+</script>
 
-<!--<div class="zoom-in-out-box center"><picture id="splash-branding">-->
-<!--    <source srcset="splash/img/branding-1x.png 1x, splash/img/branding-2x.png 2x, splash/img/branding-3x.png 3x, splash/img/branding-4x.png 4x" media="(prefers-color-scheme: light)">-->
-<!--    <source srcset="splash/img/branding-dark-1x.png 1x, splash/img/branding-dark-2x.png 2x, splash/img/branding-dark-3x.png 3x, splash/img/branding-dark-4x.png 4x" media="(prefers-color-scheme: dark)">-->
-<!--    <img class="center" aria-hidden="true" src="splash/img/branding-1x.png" alt="">-->
-<!--  </picture>-->
-<!--</div>-->
-<!--<img src="https://media.giphy.com/media/3o6UBpHgaXFDNAuttm/giphy.gif">-->
-<!--<img src="/images/logo.png" />-->
-<!--—- Other Body Properties —--->
-<!--<script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>-->
 <script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>
 <script>
 
