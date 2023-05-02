@@ -36,29 +36,32 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2981645973';
+    var serviceWorkerVersion = '221309378';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
   <script src="clevertap.js" defer=""></script>
   <link rel="stylesheet" type="text/css" href="splash/style.css">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <script src="splash/splash.js"></script>
+  <script src="splash.js"></script>
 </head>
 
 <body>
 
+
 <div class="center">
-  <canvas id="riveCanvas" width="300" height="300"></canvas>
-  <canvas id="riveCanvasLoader" width="50" height="50"></canvas>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <lottie-player src="assets/assets/lottie/splash.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+<!--  <canvas id="riveCanvas"></canvas>-->
+  <canvas  id="riveCanvasLoader" width="300px" height="50px"></canvas>
 </div>
 <script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
 <script>
-    const r = new rive.Rive({
-       src: "assets/assets/RiveAnimation/splash.riv",
-       canvas: document.getElementById("riveCanvas"),
-       autoplay: true,
-    });
+<!--    const r = new rive.Rive({-->
+<!--       src: "assets/assets/RiveAnimation/splash.riv",-->
+<!--       canvas: document.getElementById("riveCanvas"),-->
+<!--       autoplay: true,-->
+<!--    });-->
     setTimeout(function() {
       const r = new rive.Rive({
         src: "assets/assets/RiveAnimation/new_file_2.riv",
