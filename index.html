@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1490918403';
+    var serviceWorkerVersion = '2981645973';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -49,8 +49,8 @@
 <body>
 
 <div class="center">
-  <canvas id="riveCanvas" width="800" height="300"></canvas>
-  <canvas id="riveCanvasLoader" width="800" height="50"></canvas>
+  <canvas id="riveCanvas" width="300" height="300"></canvas>
+  <canvas id="riveCanvasLoader" width="50" height="50"></canvas>
 </div>
 <script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
 <script>
@@ -61,7 +61,7 @@
     });
     setTimeout(function() {
       const r = new rive.Rive({
-        src: "assets/assets/RiveAnimation/loader.riv",
+        src: "assets/assets/RiveAnimation/new_file_2.riv",
         canvas: document.getElementById("riveCanvasLoader"),
         autoplay: true,
       });
