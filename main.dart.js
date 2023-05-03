@@ -115678,7 +115678,7 @@ else A.b7().$1("ViewAllOrderListingDebug-else -- "+b.j(0))},
 $S:242}
 A.L3.prototype={
 U(){var s=t.N
-return new A.a9Q(A.a([A.ag(["title","Wherever\nYou Shop,","gradient_title","Find it here","image","assets/RiveAnimation/final.riv","desc","Love to shop online?\nNow get instant access to all of your orders in one app"],s,s),A.ag(["title","Keep an eye\non your","gradient_title","deliveries","image","assets/RiveAnimation/onboarding-2.riv","desc","We track all your orders in real-time so you don't have to "],s,s),A.ag(["title","Your private data is","gradient_title","safe with us","image","assets/RiveAnimation/onboarding-3.riv","desc","We value your digital privacy and keep all your data safe in encrypted format"],s,s)],t.SN),A.b5h(0,1),A.e5(u.o,0,null),B.k)}}
+return new A.a9Q(A.a([A.ag(["title","Wherever\nYou Shop,","gradient_title","Find it here","image","assets/RiveAnimation/revised_1.riv","desc","Love to shop online?\nNow get instant access to all of your orders in one app"],s,s),A.ag(["title","Keep an eye\non your","gradient_title","deliveries","image","assets/RiveAnimation/onboarding-2.riv","desc","We track all your orders in real-time so you don't have to "],s,s),A.ag(["title","Your private data is","gradient_title","safe with us","image","assets/RiveAnimation/onboarding-3.riv","desc","We value your digital privacy and keep all your data safe in encrypted format"],s,s)],t.SN),A.b5h(0,1),A.e5(u.o,0,null),B.k)}}
 A.a9Q.prototype={
 a9(){this.an()
 this.tY()},
