@@ -70,9 +70,3 @@ body {
     transform: scale(0.4, 0.4);
   }
 }
-
-.splashLoader {
-  width: 200px;
-  height: 50px;
-  background-color: lightblue;
-}
