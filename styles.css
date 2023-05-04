@@ -12,7 +12,11 @@ height: 100%;
 }
 
 body {
-background-image: linear-gradient(to bottom right, #121212, #121212, #121212);
+  margin: 0;
+  min-height: 100%;
+  background-color: #121212;
+  background-size: 100% 100%;
+  transition-delay: 1.2s;
 }
 
 .loader {
