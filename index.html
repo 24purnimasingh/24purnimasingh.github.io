@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2413549880';
+    var serviceWorkerVersion = '1255551119';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -47,7 +47,7 @@
   <style>
   #splashLoader {
     height: 30px;
-    width: 300px;
+    width: 100%;
   }
   </style>
 
@@ -68,22 +68,22 @@
 <!--  <div id="splashLoader"></div>-->
 <!--</div>-->
 
-<script>
-setTimeout(function() {
-        var animation1 = bodymovin.loadAnimation({
-        container: document.getElementById('splashDiv'),
-        path: 'assets/assets/lottie/splash.json'
-        });
-     }, 0);
-</script>
-<script>
-    setTimeout(function() {
-        var animation = bodymovin.loadAnimation({
-        container: document.getElementById('splashLoader'),
-        path: 'assets/assets/lottie/splash_loader.json'
-        });
-     }, 1200);
-</script>
+<!--<script>-->
+<!--setTimeout(function() {-->
+<!--        var animation1 = bodymovin.loadAnimation({-->
+<!--        container: document.getElementById('splashDiv'),-->
+<!--        path: 'assets/assets/lottie/splash.json'-->
+<!--        });-->
+<!--     }, 0);-->
+<!--</script>-->
+<!--<script>-->
+<!--    setTimeout(function() {-->
+<!--        var animation = bodymovin.loadAnimation({-->
+<!--        container: document.getElementById('splashLoader'),-->
+<!--        path: 'assets/assets/lottie/splash_loader.json'-->
+<!--        });-->
+<!--     }, 1200);-->
+<!--</script>-->
 
 
 
@@ -93,19 +93,30 @@ setTimeout(function() {
 <!--  <canvas  id="riveCanvas" width="300px" height="50px">-->
 <!--    <lottie-player src="assets/assets/lottie/MyShiprocket.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>-->
 <!--  </canvas>-->
-<!--  <canvas id="riveCanvas" width="300px" height="400px"></canvas>-->
+  <canvas id="riveCanvas"></canvas>
 <!--  <canvas  id="riveCanvasLoader" width="300px" height="50px"></canvas>-->
-  <div id="splashDiv"></div>
+<!--  <div id="splashDiv"></div>-->
   <div id="splashLoader"></div>
 
 </div>
-<!--<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>-->
-<!--<script>-->
-<!--    const r = new rive.Rive({-->
-<!--       src: "assets/assets/RiveAnimation/splash.riv",-->
-<!--       canvas: document.getElementById("riveCanvas"),-->
-<!--       autoplay: true,-->
-<!--    });-->
+<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
+<script>
+    const r = new rive.Rive({
+       src: "assets/assets/RiveAnimation/splash.riv",
+       canvas: document.getElementById("riveCanvas"),
+       autoplay: true,
+       onLoad: () => {
+          r.resizeDrawingSurfaceToCanvas();
+        }
+    });
+
+    setTimeout(function() {
+        r.pause();
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('splashLoader'),
+        path: 'assets/assets/lottie/splash_loader.json'
+        });
+     }, 1200);
 <!--    setTimeout(function() {-->
 <!--      const r = new rive.Rive({-->
 <!--        src: "assets/assets/RiveAnimation/loader.riv",-->
@@ -113,7 +124,7 @@ setTimeout(function() {
 <!--        autoplay: true,-->
 <!--      });-->
 <!--    },1200);-->
-<!--</script>-->
+</script>
 
 <script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>
 <script>
