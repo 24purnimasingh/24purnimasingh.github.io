@@ -36,96 +36,26 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2969435720';
+    var serviceWorkerVersion = '3344434514';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
   <script src="clevertap.js" defer=""></script>
   <link rel="stylesheet" type="text/css" href="splash/style.css">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-<!--  <script src="splash.js"></script>-->
-  <style>
-  #splashLoader {
-    height: 30px;
-    width: 100%;
-  }
-  </style>
-
-  <style>
-  #splashDiv {
-    height: 300px;
-  }
-  </style>
+  <script src="splash/splash.js"></script>
 </head>
-
 <body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
-<!--<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>-->
-
-<!--<div class="center">-->
-<!--  <lottie-player src="assets/assets/lottie/new.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>-->
-<!--  <div id="splashLoader"></div>-->
-<!--</div>-->
-
-<!--<script>-->
-<!--setTimeout(function() {-->
-<!--        var animation1 = bodymovin.loadAnimation({-->
-<!--        container: document.getElementById('splashDiv'),-->
-<!--        path: 'assets/assets/lottie/splash.json'-->
-<!--        });-->
-<!--     }, 0);-->
-<!--</script>-->
-<!--<script>-->
-<!--    setTimeout(function() {-->
-<!--        var animation = bodymovin.loadAnimation({-->
-<!--        container: document.getElementById('splashLoader'),-->
-<!--        path: 'assets/assets/lottie/splash_loader.json'-->
-<!--        });-->
-<!--     }, 1200);-->
-<!--</script>-->
-
-
-
-
-<div class="center">
-<!--  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>-->
-<!--  <canvas  id="riveCanvas" width="300px" height="50px">-->
-<!--    <lottie-player src="assets/assets/lottie/MyShiprocket.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>-->
-<!--  </canvas>-->
-  <canvas id="riveCanvas" width="200px" height="100px"></canvas>
-<!--  <canvas  id="riveCanvasLoader" width="300px" height="50px"></canvas>-->
-<!--  <div id="splashDiv"></div>-->
-  <div id="splashLoader"></div>
-
+<div class="zoom-in-out-box center"><picture id="splash-branding">
+    <source srcset="splash/img/branding-1x.png 1x, splash/img/branding-2x.png 2x, splash/img/branding-3x.png 3x, splash/img/branding-4x.png 4x" media="(prefers-color-scheme: light)">
+    <source srcset="splash/img/branding-dark-1x.png 1x, splash/img/branding-dark-2x.png 2x, splash/img/branding-dark-3x.png 3x, splash/img/branding-dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+    <img class="center" aria-hidden="true" src="splash/img/branding-1x.png" alt="">
+  </picture>
 </div>
-<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
-<script>
-    const r = new rive.Rive({
-       src: "assets/assets/RiveAnimation/splash.riv",
-       canvas: document.getElementById("riveCanvas"),
-       autoplay: true,
-       onLoad: () => {
-          r.resizeDrawingSurfaceToCanvas();
-        }
-    });
-
-    setTimeout(function() {
-        r.pause();
-        var animation = bodymovin.loadAnimation({
-        container: document.getElementById('splashLoader'),
-        path: 'assets/assets/lottie/splash_loader.json'
-        });
-     }, 2100);
-<!--    setTimeout(function() {-->
-<!--      const r = new rive.Rive({-->
-<!--        src: "assets/assets/RiveAnimation/loader.riv",-->
-<!--        canvas: document.getElementById("riveCanvasLoader"),-->
-<!--        autoplay: true,-->
-<!--      });-->
-<!--    },1200);-->
-</script>
-
+<!--<img src="https://media.giphy.com/media/3o6UBpHgaXFDNAuttm/giphy.gif">-->
+<!--<img src="/images/logo.png" />-->
+<!--—- Other Body Properties —--->
+<!--<script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>-->
 <script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>
 <script>
 
