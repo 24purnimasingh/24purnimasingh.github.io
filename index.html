@@ -36,42 +36,67 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3160976243';
+    var serviceWorkerVersion = '3413319254';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
   <script src="clevertap.js" defer=""></script>
   <link rel="stylesheet" type="text/css" href="splash/style.css">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
-  <script src="splash.js"></script>
+<!--  <script src="splash.js"></script>-->
+  <style>
+  #splashLoader {
+    height: 30px;
+    width: 300px;
+  }
+  </style>
 </head>
 
 <body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 <div class="center">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<!--  <canvas  id="riveCanvas" width="300px" height="50px">-->
-    <lottie-player src="assets/assets/lottie/MyShiprocket.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>
-<!--  </canvas>-->
-<!--  <canvas id="riveCanvas"></canvas>-->
-  <canvas  id="riveCanvasLoader" width="300px" height="50px"></canvas>
+  <lottie-player src="assets/assets/lottie/MyShiprocket.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>
+  <div id="splashLoader"></div>
 </div>
-<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
+
 <script>
-<!--    const r = new rive.Rive({-->
-<!--       src: "assets/assets/RiveAnimation/look_working.riv",-->
-<!--       canvas: document.getElementById("riveCanvas"),-->
-<!--       autoplay: true,-->
-<!--    });-->
     setTimeout(function() {
-      const r = new rive.Rive({
-        src: "assets/assets/RiveAnimation/loader.riv",
-        canvas: document.getElementById("riveCanvasLoader"),
-        autoplay: true,
-      });
-    },1200);
+        var animation = bodymovin.loadAnimation({
+        container: document.getElementById('splashLoader'),
+        path: 'assets/assets/lottie/splash_loader.json'
+        });
+     }, 1200);
 </script>
+
+
+
+
+<!--<div class="center">-->
+<!--  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>-->
+<!--&lt;!&ndash;  <canvas  id="riveCanvas" width="300px" height="50px">&ndash;&gt;-->
+<!--    <lottie-player src="assets/assets/lottie/MyShiprocket.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>-->
+<!--&lt;!&ndash;  </canvas>&ndash;&gt;-->
+<!--&lt;!&ndash;  <canvas id="riveCanvas"></canvas>&ndash;&gt;-->
+<!--  <canvas  id="riveCanvasLoader" width="300px" height="50px"></canvas>-->
+<!--</div>-->
+<!--<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>-->
+<!--<script>-->
+<!--&lt;!&ndash;    const r = new rive.Rive({&ndash;&gt;-->
+<!--&lt;!&ndash;       src: "assets/assets/RiveAnimation/look_working.riv",&ndash;&gt;-->
+<!--&lt;!&ndash;       canvas: document.getElementById("riveCanvas"),&ndash;&gt;-->
+<!--&lt;!&ndash;       autoplay: true,&ndash;&gt;-->
+<!--&lt;!&ndash;    });&ndash;&gt;-->
+<!--    setTimeout(function() {-->
+<!--      const r = new rive.Rive({-->
+<!--        src: "assets/assets/RiveAnimation/loader.riv",-->
+<!--        canvas: document.getElementById("riveCanvasLoader"),-->
+<!--        autoplay: true,-->
+<!--      });-->
+<!--    },1200);-->
+<!--</script>-->
 
 <script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>
 <script>
