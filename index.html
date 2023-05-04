@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '486853856';
+    var serviceWorkerVersion = '2413549880';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -50,18 +50,32 @@
     width: 300px;
   }
   </style>
+
+  <style>
+  #splashDiv {
+    height: 300px;
+  }
+  </style>
 </head>
 
 <body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<!--<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>-->
 
-<div class="center">
-  <lottie-player src="assets/assets/lottie/new.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>
-  <div id="splashLoader"></div>
-</div>
+<!--<div class="center">-->
+<!--  <lottie-player src="assets/assets/lottie/new.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>-->
+<!--  <div id="splashLoader"></div>-->
+<!--</div>-->
 
+<script>
+setTimeout(function() {
+        var animation1 = bodymovin.loadAnimation({
+        container: document.getElementById('splashDiv'),
+        path: 'assets/assets/lottie/splash.json'
+        });
+     }, 0);
+</script>
 <script>
     setTimeout(function() {
         var animation = bodymovin.loadAnimation({
@@ -74,21 +88,24 @@
 
 
 
-<!--<div class="center">-->
+<div class="center">
 <!--  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>-->
-<!--&lt;!&ndash;  <canvas  id="riveCanvas" width="300px" height="50px">&ndash;&gt;-->
+<!--  <canvas  id="riveCanvas" width="300px" height="50px">-->
 <!--    <lottie-player src="assets/assets/lottie/MyShiprocket.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>-->
-<!--&lt;!&ndash;  </canvas>&ndash;&gt;-->
-<!--&lt;!&ndash;  <canvas id="riveCanvas"></canvas>&ndash;&gt;-->
+<!--  </canvas>-->
+<!--  <canvas id="riveCanvas" width="300px" height="400px"></canvas>-->
 <!--  <canvas  id="riveCanvasLoader" width="300px" height="50px"></canvas>-->
-<!--</div>-->
+  <div id="splashDiv"></div>
+  <div id="splashLoader"></div>
+
+</div>
 <!--<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>-->
 <!--<script>-->
-<!--&lt;!&ndash;    const r = new rive.Rive({&ndash;&gt;-->
-<!--&lt;!&ndash;       src: "assets/assets/RiveAnimation/look_working.riv",&ndash;&gt;-->
-<!--&lt;!&ndash;       canvas: document.getElementById("riveCanvas"),&ndash;&gt;-->
-<!--&lt;!&ndash;       autoplay: true,&ndash;&gt;-->
-<!--&lt;!&ndash;    });&ndash;&gt;-->
+<!--    const r = new rive.Rive({-->
+<!--       src: "assets/assets/RiveAnimation/splash.riv",-->
+<!--       canvas: document.getElementById("riveCanvas"),-->
+<!--       autoplay: true,-->
+<!--    });-->
 <!--    setTimeout(function() {-->
 <!--      const r = new rive.Rive({-->
 <!--        src: "assets/assets/RiveAnimation/loader.riv",-->
