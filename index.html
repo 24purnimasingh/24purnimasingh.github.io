@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2982020668';
+    var serviceWorkerVersion = '3763159956';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -48,13 +48,17 @@
   #splashLoader {
     height: 30px;
     width: 100%;
+    margin-top: 10px;
   }
-  </style>
-
-  <style>
-  #splashDiv {
-    height: 300px;
+  
+   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
+ 
   </style>
 </head>
 
@@ -62,11 +66,9 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
 
-<div class="center">
-  <img src="splash/img/logo.png" width="375px" height="222px">
-<!--  <div id="splashDiv"></div>-->
+<div class="container">
+  <img src="splash/img/logo.png" width="250px" height="158px" alt="Logo">
   <div id="splashLoader"></div>
-
 </div>
 <script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
 <script>
