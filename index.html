@@ -25,8 +25,8 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
 
   <!-- Style CSS -->
 <!--  <link rel="stylesheet" type="text/css" href="styles.css">-->
@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1268593458';
+    var serviceWorkerVersion = '3438423652';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -65,29 +65,32 @@
 <body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
-
+<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>
 <div class="container">
-  <img src="splash/img/logo.png" width="250px" height="158px" alt="Logo">
-  <div id="splashLoader"></div>
+<!--  <img src="splash/img/logo.png" width="250px" height="158px" alt="Logo">-->
+  <canvas id="canvas" width="300" height="400"></canvas>
+<!--  <div id="splashLoader"></div>-->
 </div>
-<!--<script src="https://unpkg.com/@rive-app/canvas@1.0.102"></script>-->
-<script>
-<!--    const r = new rive.Rive({-->
-<!--       src: "assets/assets/RiveAnimation/splash.riv",-->
-<!--       canvas: document.getElementById("riveCanvas"),-->
-<!--       autoplay: true,-->
-<!--       onLoad: () => {-->
-<!--          r.resizeDrawingSurfaceToCanvas();-->
-<!--        }-->
-<!--    });-->
 
-<!--    setTimeout(function() {-->
-<!--        r.pause();-->
-        var animation = bodymovin.loadAnimation({
-        container: document.getElementById('splashLoader'),
-        path: 'assets/assets/lottie/splash_loader.json'
-        });
-<!--     }, 0);-->
+<script>
+    const r = new rive.Rive({
+        src: "assets/assets/RiveAnimation/splash.riv",
+        // Or the path to a public Rive asset
+        // src: '/public/example.riv',
+        canvas: document.getElementById("canvas"),
+        autoplay: true,
+<!--        stateMachines: "bumpy",-->
+        onLoad: () => {
+          r.resizeDrawingSurfaceToCanvas();
+        }
+    });
+</script>
+
+<script>
+   var animation = bodymovin.loadAnimation({
+     container: document.getElementById('splashLoader'),
+     path: 'assets/assets/lottie/splash_loader.json'
+   });
 </script>
 
 <script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>
