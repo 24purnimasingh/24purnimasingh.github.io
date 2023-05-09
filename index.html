@@ -36,7 +36,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1410157401';
+    var serviceWorkerVersion = '861639912';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -65,17 +65,21 @@
 <body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
-
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <div class="container">
-  <img src="splash/img/logo.png" width="250px" height="158px" alt="Logo">
+  <lottie-player src="assets/assets/lottie/new_splash.json" background="transparent" speed="1" style="width: 300px; height: 158px;" autoplay></lottie-player>
+<!--  <img src="splash/img/logo.png" width="250px" height="158px" alt="Logo">-->
   <div id="splashLoader"></div>
 </div>
 
 <script>
-   var animation = bodymovin.loadAnimation({
+setTimeout(function() {
+      var animation = bodymovin.loadAnimation({
      container: document.getElementById('splashLoader'),
      path: 'assets/assets/lottie/splash_loader.json'
    });
+    },1200);
+
 </script>
 
 <script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>
