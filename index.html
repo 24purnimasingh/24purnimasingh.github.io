@@ -36,26 +36,21 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2840442456';
+    var serviceWorkerVersion = '727123125';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
   <script src="clevertap.js" defer=""></script>
   <link rel="stylesheet" type="text/css" href="splash/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
-</head>
-
-<body>
-
-
-<div class="container">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<!--  <script src="splash.js"></script>-->
   <style>
   #splashLoader {
     height: 30px;
     width: 100%;
     margin-top: 10px;
   }
-
+  
    .container {
     display: flex;
     flex-direction: column;
@@ -63,8 +58,15 @@
     align-items: center;
     height: 100vh;
   }
-
+ 
   </style>
+</head>
+
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+
+<div class="container">
   <img src="splash/img/logo.png" width="250px" height="158px" alt="Logo">
   <div id="splashLoader"></div>
 </div>
@@ -76,6 +78,7 @@
    });
 </script>
 
+<script>  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLl9Tg_rNrbeODdFWULR-YhogqaAdH5A"</script>
 <script>
 
     window.addEventListener('load', function(ev) {
