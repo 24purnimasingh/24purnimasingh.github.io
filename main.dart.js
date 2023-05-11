@@ -109627,7 +109627,7 @@ o=A.ay(j,j,B.r,j,j,j,j,j,j,j,j,0.045454545454545456*$.z.v(),j,j,B.am,j,j,!0,j,j,
 n=A.ay(j,j,B.r,j,j,j,j,j,j,j,j,0.037037037037037035*$.z.v(),j,j,B.am,j,j,!0,j,j,j,j,j,j,j,j)
 m=A.ay(j,j,B.r,j,j,j,j,j,j,j,j,0.030303030303030304*$.z.v(),j,j,B.am,j,j,!0,j,j,j,j,j,j,j,j)
 l=A.ay(j,j,B.r,j,j,j,j,j,i,j,j,0.02356902356902357*$.z.v(),B.f7,j,B.am,j,j,!0,j,j,j,j,j,j,j,j)
-return A.bj0(new A.BX(h,new A.auD(f,g),"My Shiprocket",A.b_p(j,i,new A.Le(s),B.a5c,B.p,A.a3R(j,j,j,A.ay(j,j,B.r,j,j,j,j,j,i,j,j,0.030303030303030304*$.z.v(),B.f7,j,B.H,j,j,!0,j,j,j,j,j,j,j,j),A.ay(j,j,B.r,j,j,j,j,j,i,j,j,0.026936026936026935*$.z.v(),B.f7,j,B.H,j,j,!0,j,j,j,j,j,j,j,j),A.ay(j,j,B.r,j,j,j,j,j,j,j,j,0.020202020202020204*$.z.v(),j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j,q,p,o,n,m,l,j,j,j,j,j,j,A.ay(j,j,B.r,j,j,j,j,j,i,j,j,0.020202020202020204*$.z.v(),j,j,B.am,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),j),!1,j),e)},
+return A.bj0(new A.BX(h,new A.auD(f,g),"myShiprocket",A.b_p(j,i,new A.Le(s),B.a5c,B.p,A.a3R(j,j,j,A.ay(j,j,B.r,j,j,j,j,j,i,j,j,0.030303030303030304*$.z.v(),B.f7,j,B.H,j,j,!0,j,j,j,j,j,j,j,j),A.ay(j,j,B.r,j,j,j,j,j,i,j,j,0.026936026936026935*$.z.v(),B.f7,j,B.H,j,j,!0,j,j,j,j,j,j,j,j),A.ay(j,j,B.r,j,j,j,j,j,j,j,j,0.020202020202020204*$.z.v(),j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j,q,p,o,n,m,l,j,j,j,j,j,j,A.ay(j,j,B.r,j,j,j,j,j,i,j,j,0.020202020202020204*$.z.v(),j,j,B.am,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),j),!1,j),e)},
 $S:603}
 A.auw.prototype={
 $1(a){return this.a},
@@ -112440,13 +112440,13 @@ o=A.F(d,d,A.a3(10))
 n=$.al()
 k=A.ab(B.b8,A.ac("No Linked Accounts Found",d,d,d,d,n.as,B.C,d),B.i,d,d,d,d,d,d,d,d,d,d)
 n=n.at
-B.d.N(c,A.a([A.xD(B.U,B.u,B.cS,A.ab(d,A.bg(A.a([p,o,A.dO(A.aI(A.a([k,A.ac("You do not have any gmail account linked to My Shiprocket",d,d,d,d,n==null?d:n.T(A.ay(d,d,B.ID,d,d,d,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d)),B.C,d)],b),B.m,B.n,B.j),1)],b),B.m,B.n,B.j),B.i,d,d,d,d,d,d,new A.aj(q,r,q,r),d,d,d),B.aL,new A.aNZ(),B.cr)],b))}c.push(A.F(d,0.025252525252525252*$.z.v(),d))
+B.d.N(c,A.a([A.xD(B.U,B.u,B.cS,A.ab(d,A.bg(A.a([p,o,A.dO(A.aI(A.a([k,A.ac("You do not have any gmail account linked to myShiprocket",d,d,d,d,n==null?d:n.T(A.ay(d,d,B.ID,d,d,d,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d)),B.C,d)],b),B.m,B.n,B.j),1)],b),B.m,B.n,B.j),B.i,d,d,d,d,d,d,new A.aj(q,r,q,r),d,d,d),B.aL,new A.aNZ(),B.cr)],b))}c.push(A.F(d,0.025252525252525252*$.z.v(),d))
 c.push(A.jw(B.bb,0.7))
 c.push(A.F(d,0.021885521885521887*$.z.v(),d))
 r=s&&e.a.r.length===0?"Let\u2019s bring your orders here":"Add more accounts"
 c.push(A.ac(r,d,d,d,d,$.al().b,d,d))
 c.push(A.F(d,0.01127946127946128*$.z.v(),d))
-s=s&&e.a.r.length===0?"Get started by linking you gmail account with My Shiprocket":"using multiple emails to log into online stores? add them all here and start tracking your orders right away."
+s=s&&e.a.r.length===0?"Get started by linking you gmail account with myShiprocket":"using multiple emails to log into online stores? add them all here and start tracking your orders right away."
 r=$.al().x
 c.push(A.ac(s,d,d,d,d,r==null?d:r.T(A.ay(d,d,B.ct,d,d,d,d,d,d,d,d,d,d,d,d,d,d,!0,d,d,d,d,d,d,d,d)),d,d))
 c.push(A.F(d,0.02239057239057239*$.z.v(),d))
@@ -115235,7 +115235,7 @@ var s=this.r
 s===$&&A.b()
 s.ak(0)
 this.f.m()},
-E(a){var s,r,q,p,o,n,m,l=this,k=null,j=a.O(t.l).f.a.b,i=l.f,h=A.F(A.bjs(i,new A.aPQ(l),3,new A.aPR(l)),j*0.7,k),g=A.a3(25),f=$.z.v(),e=A.a3(25),d=$.z.v(),c=t.p
+E(a){var s,r,q,p,o,n,m,l=this,k=null,j=a.O(t.l).f.a.b,i=l.f,h=A.F(A.bjs(i,new A.aPQ(l),3,new A.aPR(l)),j*0.75,k),g=A.a3(25),f=$.z.v(),e=A.a3(25),d=$.z.v(),c=t.p
 i=A.bg(A.a([A.ble(i,3,B.KR,new A.aPS(l)),new A.a2X(2,k),A.F(new A.GP("Let's Begin",new A.aPT(l,a),k),0.06279461279461279*$.z.v(),k)],c),B.m,B.n,B.j)
 s=A.F(k,20,k)
 r=A.jw(B.bb,0.5)
@@ -115247,7 +115247,7 @@ n=$.al().ax
 n=n==null?k:n.T(B.ab7)
 m=A.ub(k,k)
 m.aY=new A.aPU(l)
-return A.hx(k,B.u,A.ab(k,A.c7(A.ab(k,A.aI(A.a([h,A.F(new A.bQ(new A.aj(g,0.03367003367003367*f,e,0.04208754208754209*d),A.aI(A.a([i,s,r,q,A.bg(A.a([A.CZ(k,k,B.an,k,k,!0,k,A.ck(A.a([p,new A.oy(o,B.a6h,B.Z,k),A.ck(k,m,n,"Terms & Conditions")],t.VO),k,k,k),B.a9,k,k,1,B.a2),A.F(k,12,k)],c),B.m,B.as,B.j)],c),B.e_,B.ik,B.j),k),j*0.3,k)],c),B.N,B.n,B.j),B.i,B.u,k,k,k,k,k,k,k,k,450),k,k),B.i,B.u,k,k,k,k,k,k,k,k,1/0),k,k)}}
+return A.hx(k,B.u,A.ab(k,A.c7(A.ab(k,A.aI(A.a([h,A.F(new A.bQ(new A.aj(g,0.03367003367003367*f,e,0.04208754208754209*d),A.aI(A.a([i,s,r,q,A.bg(A.a([A.CZ(k,k,B.an,k,k,!0,k,A.ck(A.a([p,new A.oy(o,B.a6h,B.Z,k),A.ck(k,m,n,"Terms & Conditions")],t.VO),k,k,k),B.a9,k,k,1,B.a2),A.F(k,12,k)],c),B.m,B.as,B.j)],c),B.e_,B.ik,B.j),k),j*0.25,k)],c),B.N,B.n,B.j),B.i,B.u,k,k,k,k,k,k,k,k,450),k,k),B.i,B.u,k,k,k,k,k,k,k,k,1/0),k,k)}}
 A.aPV.prototype={
 $1(a){var s=this.a,r=s.d
 r=r<2?s.d=r+1:s.d=0
@@ -116595,7 +116595,7 @@ return A.q($async$oz,r)},
 wK(a,b,c){return this.aaB(a,b,c)},
 aaB(a,b,c){var s=0,r=A.r(t.c),q,p=2,o,n=this,m,l,k,j,i,h,g
 var $async$wK=A.n(function(d,e){if(d===1){o=e
-s=p}while(true)switch(s){case 0:if(b.length!==0)if(b!=="null")k=c.toLowerCase()==="myntra"||c.toLowerCase()==="ajio"
+s=p}while(true)switch(s){case 0:if(b.length!==0)if(b!=="null")k=c.toLowerCase()==="myntra"||c.toLowerCase()==="ajio"||c.toLowerCase()==="flipkart"
 else k=!1
 else k=!1
 s=k?3:5
@@ -116674,7 +116674,7 @@ return A.q($async$I2,r)},
 Ae(a,b,c){return this.aGL(a,b,c)},
 aGL(a,b,c){var s=0,r=A.r(t.c),q,p=2,o,n=this,m,l,k,j,i,h,g
 var $async$Ae=A.n(function(d,e){if(d===1){o=e
-s=p}while(true)switch(s){case 0:if(b.length!==0)if(b!=="null")k=c.toLowerCase()==="myntra"||c.toLowerCase()==="ajio"
+s=p}while(true)switch(s){case 0:if(b.length!==0)if(b!=="null")k=c.toLowerCase()==="myntra"||c.toLowerCase()==="ajio"||c.toLowerCase()==="flipkart"
 else k=!1
 else k=!1
 s=k?3:5

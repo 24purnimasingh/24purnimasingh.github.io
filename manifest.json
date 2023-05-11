@@ -1,11 +1,11 @@
 {
-    "name": "My Shiprocket",
-    "short_name": "My Shiprocket",
+    "name": "myShiprocket",
+    "short_name": "myShiprocket",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#121212",
     "theme_color": "#121212",
-    "description": "My Shiprocket is a one-stop app for your post-shopping and tracking needs. Track your orders, return or exchange them, and keep an eye out for delivery.",
+    "description": "myShiprocket is a one-stop app for your post-shopping and tracking needs. Track your orders, return or exchange them, and keep an eye out for delivery.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
