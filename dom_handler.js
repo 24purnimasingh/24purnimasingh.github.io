@@ -1,0 +1,3 @@
+function goBackInHistory() {
+  history.back()
+}
