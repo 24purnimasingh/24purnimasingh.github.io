@@ -34708,7 +34708,7 @@ aYn:function aYn(a){this.a=a},
 aYm:function aYm(a){this.a=a},
 aYl:function aYl(){},
 bur(a){var s=new A.aCn(a)
-s.a=A.bcL(B.cI,a,"https://promise.shiprocket.in")
+s.a=A.bcL(B.cI,a,"https://sr-promise-qa-1.kartrocket.com")
 return s},
 aCn:function aCn(a){this.a=$
 this.b=a},
